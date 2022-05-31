@@ -1,0 +1,38 @@
+{
+  "score": 100.0,
+  "tests": [
+    {
+      "test": "has_pages",
+      "points": 10,
+      "possible": 10
+    },
+    {
+      "test": "has_links",
+      "points": 6,
+      "possible": 6
+    },
+    {
+      "test": "browse",
+      "points": 20,
+      "possible": 20
+    },
+    {
+      "test": "ab_test",
+      "points": 30,
+      "possible": 30
+    },
+    {
+      "test": "api_examples",
+      "points": 20,
+      "possible": 20
+    },
+    {
+      "test": "email",
+      "points": 14,
+      "possible": 14
+    }
+  ],
+  "lint": [],
+  "date": "03/13/2020",
+  "latency": 0.4353334903717041
+}

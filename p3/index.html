@@ -1,0 +1,31 @@
+<html>
+       <head>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+          function subscribe() {
+            var email = prompt("What is your email?", "????");
+
+            $.post({
+              type: "POST",
+              url: "email",
+              data: email,
+              contentType: "application/text; charset=utf-8",
+              dataType: "json"
+            }).done(function(data) {
+              alert(data);
+            }).fail(function(data) {
+              alert("POST failed");
+            });
+          }
+        </script>
+      </head>
+      <body>
+        <h1>Welcome!</h1>
+          <p>This site hosts University/College out-of-state tuition dataset. You can browse the data <a href ="browse.html"> here.</a></p>
+          <p>Or, if you want to write code to pull the data in JSON form, read about <a href ="api.html">our API</a>.</p>
+          <p>To receive updates on college/university tuition is added to the dataset, please subscribe:</p>
+          <button onclick="subscribe()">Subscribe</button>
+          <p>Of course, hosting this site is terribly expensive, so please...</p>
+          <h2><a href="donate.html?from=a" style="color:red">Donate</a></h2>
+          </body>
+    </html>

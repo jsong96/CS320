@@ -1,0 +1,48 @@
+{
+  "score": 100.0,
+  "tests": [
+    {
+      "test": "conn_cleanup",
+      "points": 10,
+      "possible": 10
+    },
+    {
+      "test": "list_images",
+      "points": 5,
+      "possible": 5
+    },
+    {
+      "test": "image_year",
+      "points": 5,
+      "possible": 5
+    },
+    {
+      "test": "image_name",
+      "points": 5,
+      "possible": 5
+    },
+    {
+      "test": "image_load",
+      "points": 5,
+      "possible": 5
+    },
+    {
+      "test": "lat_regression",
+      "points": 20,
+      "possible": 20
+    },
+    {
+      "test": "year_regression",
+      "points": 25,
+      "possible": 25
+    },
+    {
+      "test": "animate",
+      "points": 25,
+      "possible": 25
+    }
+  ],
+  "lint": [],
+  "date": "04/15/2020",
+  "latency": 100.47202634811401
+}
